@@ -300,7 +300,7 @@
 
             this.xml.startElement(prop);
 
-            if (typeName !== 'Edm.String')
+            //if (typeName !== 'Edm.String')
                 this.xml.addAttribute(memberType, typeName);
 
             var value = data[memDef.name];
